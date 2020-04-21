@@ -2,11 +2,6 @@
 /* Fuentes usadas en la pagina */
 
 @font-face{
-    font-family: 'Gravity';
-    src: url(../font/Gravity-Regular.otf)
-}
-
-@font-face{
     font-family: 'Antipas';
     src: url(../font/Antipasto-Pro-Regular-trial.ttf)
 }

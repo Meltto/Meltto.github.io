@@ -77,7 +77,7 @@ body {
 	color: rgb(106, 127, 249);
 }
 
-/* Responsive of Banner */ 
+/* ////////////////////////////////  Responsive of Banner /////////////////////////////////////////// */ 
 
 
 @media screen and (max-width:992px){
@@ -143,5 +143,84 @@ body {
 
 .presen-section {
 	background: rgb(248, 249, 250);
-	height: 1000px;
 }
+
+.title-sec {
+	font-family: Gravity-B;
+	color: #413f3f;
+	padding-top: 50px;
+	margin-bottom: 0px;
+	text-align: center;
+}
+
+.line-sec {
+	width: 80px;
+    height: 1px;
+    background-color: #6a7ff9;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+
+.p-pics {
+margin-right: 1.2em;
+}
+
+.presen-img {
+	position: absolute;
+	z-index: 2;
+	border-radius: 250px;
+	width: 50%;
+	margin-left: 25%;
+	margin-right: 25%;
+	border: white solid 3px;
+	-webkit-box-shadow: 3px 3px 20px  #999;
+	-moz-box-shadow: 3px 3px 20px  #999;
+	padding: 0px;
+}
+
+.presen-img:hover{
+	width: 54%;
+	margin-left: 23%;
+	margin-right: 23%;
+	-webkit-transform: rotate(-7deg);
+	-moz-transform: rotate(-7deg);
+	-ms-transform: rotate(-7deg);
+	transform: rotate(-7deg);
+}
+
+.presen-img-f {
+	width: 86%;
+	margin-left: 7%;
+	margin-right: 7%;
+	position: absolute;
+	z-index: 1;
+
+}
+
+.presen-name {
+	margin-top: 340px;
+	text-align: center;
+	font-family: Gravity-B;
+}
+
+.presen-text > p {
+	text-align: center;
+}
+
+.box-smallb {
+	text-align: center;
+	margin-bottom: 2em;
+}
+
+.small-button {
+	margin: 0px;
+	background-color: #6a7ff9;
+    font-family: Gravity-B;
+    height: 40px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+
+/* ////////////////////////////////  Responsive of Presentation /////////////////////////////////////////// */ 
