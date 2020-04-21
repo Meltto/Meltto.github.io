@@ -1,8 +1,91 @@
-/* Body Styles */
+/* ###########################  Body Styles   ####################################### */
 
 body {
 	background: #282828;
 }
 
 
-/* Navigator Styles */
+/* ########################## Navigator Styles ###################################### */
+
+.navi {
+	background: rgba(0,0,0,.8);
+}
+
+.nav-link {
+	color: white;
+}
+
+.nav-link:hover {
+	color: rgb(106, 127, 249);
+}
+
+.pushnav {
+	background: none;
+	color: white;
+	border: 0px;
+	font-size: 25px; 
+	text-decoration: none;
+}
+
+.pushnav:hover {
+	color: rgb(106, 127, 249);
+}
+
+/* Responsive of Navigator */ 
+
+/* ########################## Banner Styles ###################################### */
+
+.banner {
+	background-image: url(../img/HeaderFondo.jpg);
+	background-size: cover;
+	height: 450px;
+}
+
+.title-one {
+	color: white;
+	text-align: center;
+	padding-top: 150px;
+	font-size: 40px;
+	font-family: Gravity;
+}
+
+.title-one > p {
+	margin: 0px;
+}
+
+.title-two {
+	color: white;
+	text-align: center;
+	font-size: 21px;
+}
+
+.social-icons {
+	align-content: center;
+	text-align: center;
+	margin-top: 70px;
+	font-size: 19px;
+}
+
+.social-icons > a {
+	color: white;
+	cursor: pointer;
+	margin: 5px;
+
+}
+
+.social-icons > a:hover {
+	color: rgb(106, 127, 249);
+}
+
+/* Responsive of Banner */ 
+
+
+/* DO IT !!! */
+
+
+/* ########################## Presentation Styles ###################################### */
+
+.presen-section {
+	background: rgb(248, 249, 250);
+	height: 1000px;
+}

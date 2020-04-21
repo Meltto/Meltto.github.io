@@ -1,0 +1,32 @@
+
+/* Fuentes usadas en la pagina */
+
+@font-face{
+    font-family: 'Gravity';
+    src: url(../font/Gravity-Regular.otf)
+}
+
+@font-face{
+    font-family: 'Antipas';
+    src: url(../font/Antipasto-Pro-Regular-trial.ttf)
+}
+
+@font-face{
+    font-family: 'Gravity-B';
+    src: url(../font/Gravity-Bold.otf)
+}
+
+@font-face{
+    font-family: 'Roboto-Regular';
+    src: url(../font/Roboto-Regular.ttf)
+}
+
+@font-face{
+    font-family: 'Roboto-Light';
+    src: url(../font/Roboto-Light.ttf)
+}
+
+@font-face{
+    font-family: 'Roboto-Thin';
+    src: url(../font/Roboto-Thin.ttf)
+}

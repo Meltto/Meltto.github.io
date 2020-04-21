@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html lang="es">
+<html lang="en">
 
 <head>
 
@@ -16,6 +16,8 @@
 <!-- Styles -->
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/fonticon.css">
+	<link rel="stylesheet" type="text/css" href="css/font.css">
 
 <!-- Favicon -->
 	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
@@ -24,28 +26,90 @@
 
 <body>
 
-<!-- Container of all the body -->
-
-<div class="container container-danger">
+<!-- ############################# Navigation menu #################################  -->
 
 
-<!-- Navigation menu -->
 
-	<div class="container bg-dark">
-		<ul class="navbar navbar-inline">
-			<li class="navbar-item menu-botton"><a href="#">Home</a></li>
-			<li class="navbar-item menu-botton"><a href="#">Home</a></li>
-			<li class="navbar-item menu-botton"><a href="#">Home</a></li>
-			<li class="navbar-item menu-botton"><a href="#">Home</a></li>
-			<li class="navbar-item menu-botton"><a href="#">Home</a></li>
-		</ul>
-	</div>
+<div class="container fixed-top">
+	<nav class="row navbar navbar-expand-lg navi">
+
+<!-- Button for show the nav on mobiles -->
+
+		<button class="navbar-toogle d-lg-none mx-auto pushnav" data-toggle="collapse" type="button" data-target="#navbarFirst"><i class="fas fa-bars" id="menu-ico"></i></button>
+
+<!-- Nav flow -->
+
+		<div class="collapse navbar-collapse justify-content-center" id="navbarFirst">
+
+			<ul class="navbar-nav">
+
+				<li class="navbar-item">
+					<a class="nav-link" href="#"><i class="fas fa-home d-lg-none"></i> &nbsp Home</a>
+				</li>
+				<li class="navbar-item">
+					<a class="nav-link" href="#"><i class="fas fa-mobile-alt d-lg-none"></i> &nbsp Contact</a>
+				</li>
+
+				<li class="navbar-item dropdown">
+					<a class="nav-link" href="#"><i class="fas fa-atom d-lg-none"></i> &nbsp Studies</a>
+				</li>
+
+				<li class="navbar-item ">
+					<a class="nav-link" href="#"><i class="fas fa-briefcase d-lg-none"></i> &nbsp Works</a>
+				</li>
+
+				<li class="navbar-item ">
+					<a class="nav-link" href="#"><i class="fas fa-heartbeat d-lg-none"></i> &nbsp Hobbies</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+</div>
+	
+<!-- ######################## Container of all the body ############################ -->
+
+<div class="container">
+
+
+<!-- ############################# SECTION BANNER #################################  -->
+
+	<section class="banner-section row">
+		<div class="banner container-fluid">
+			
+			<div class="row d-block justify-content-center mx-auto">
+				<div class="col-12 title-one"><p>Informatic Engineer & Tech Lover</p></div>
+				<div class="col-12 title-two"><p>INFORMATIC ENGINEER. MENTION "COMPUTER SECURITY"</p></div>
+
+				<div class="col-12 social-icons">
+					<a href="https://www.facebook.com/Melt.FP" target="_blank"> <i class="fab fa-facebook-f"> </i></a>
+					<a href="https://twitter.com/MeltMonsters" target="_blank"> <i class="fab fa-twitter"> </i></a>
+					<a href="https://www.linkedin.com/in/orlando-cartagena-2463b1181/" target="_blank"><i class="fab fa-linkedin-in"> </i></a>
+					<a href="https://www.youtube.com/c/Meltto" target="_blank"> <i class="fab fa-youtube"> </i></a>
+					<a href="https://www.instagram.com/melt_yt" target="_blank"> <i class="fab fa-instagram"> </i></a>
+				</div>
+
+			</div>
+			
+		</div>	
+	</section>
+
+<!-- ############################# SECTION PRESENTATION #################################  -->
+	
+	<section class="presen-section row">
+		<div></div>
+		
+	</section>
 
 </div>
 
 
 <!-- Scrips -->
+<script type="text/javascript" src="js/jquery-3.2.1.slim.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/popper.min.js"></script>
+
+
+
 
 </body>
 
