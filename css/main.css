@@ -80,7 +80,63 @@ body {
 /* Responsive of Banner */ 
 
 
-/* DO IT !!! */
+@media screen and (max-width:992px){
+
+	.title-one {
+		font-size: 30px;
+	}
+
+	.title-two {
+		font-size: 15px;
+	}
+
+}
+
+
+@media screen and (max-width:768px){
+
+	.banner {
+		height: 350px;
+	}
+
+	.title-one {
+		font-size: 25px;
+	}
+
+	.title-two {
+		font-size: 13px;
+	}
+}
+
+
+@media screen and (max-width:468px){
+
+	.title-one {
+		font-size: 20px;
+	}
+
+	.title-two {
+		font-size: 10px;
+	}
+}
+
+
+
+@media screen and (max-width:388px){
+
+	.title-one {
+		font-size: 20px;
+		padding-right: 0px;
+		padding-left: 0px;
+	}
+
+	.title-two {
+		padding-right: 0px;
+		padding-left: 0px;
+		font-size: 12px;
+	}
+}
+
 
 
 /* ########################## Presentation Styles ###################################### */
