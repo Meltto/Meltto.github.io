@@ -148,7 +148,7 @@ body {
 .title-sec {
 	font-family: Gravity-B;
 	color: #413f3f;
-	padding-top: 50px;
+	padding-top: 20px;
 	margin-bottom: 0px;
 	text-align: center;
 }
@@ -353,7 +353,7 @@ margin-right: 1.2em;
 }
 
 
-/* ////////////////////////////////  Responsive of Studies /////////////////////////////////////////// */ 
+/* ////////////////////////////////  Responsive of Studies and courses section /////////////////////////////////////////// */ 
 
 
 @media screen and (max-width: 991px){
@@ -408,4 +408,11 @@ margin-right: 1.2em;
 		margin-left: 5%;
 		margin-right: 5%;
 	}
+}
+
+
+/* ########################## Courses Styles ###################################### */
+
+.courses-section {
+	background-color: white;
 }
